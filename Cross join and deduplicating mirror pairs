@@ -1,18 +1,10 @@
-There is a table "Team". Each team will have a match with everyother team. I need all possible combinations. Output is given for reference
+There is a table "Team". Each team will have a match with everyother team. I need all possible combinations. 
 Team
-RCB
-MI
-CSK
-KKR
+A
+B
+C
+D
 
-Required Output	
-t1	t2
-RCB	MI
-RCB	CSK
-RCB	KKR
-MI	CSK
-MI	KKR
-CSK	KKR
 
 SELECT 
 T1.`team` as t1,
